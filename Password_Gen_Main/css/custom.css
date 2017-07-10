@@ -1,0 +1,54 @@
+#bootstrap-overide {
+  font-size: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body > div > div > div > form > input[type="text"]:nth-child(1) {
+  padding:10px;
+  border: solid 5px #000000;
+  transition: border 0.3s;
+}
+
+body > div > div > div > form > input[type="text"]:nth-child(5) {
+  padding:10px;
+  border: solid 5px #000000;
+  transition: border 0.3s;
+}
+
+body > div > div > div > form > b {
+  font-size: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body > div > div > div > form > input[type="button"]:nth-child(2) {
+ -webkit-border-radius: 8;
+ -moz-border-radius: 8;
+ border-radius: 8px;
+ font-family: Arial;
+ color: #ffffff;
+ font-size: 30px;
+ background: #000000;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+}
+body > div > div > div > form > input[type="button"]:nth-child(2):hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body > div > div > div > form > input[type="text"]:nth-child(1) {
+  font-size: 30px;
+}
+
+body > div > div > div > form > b {
+  font-size: 30px;
+}
+
+body > div > div > div > form > input[type="text"]:nth-child(5) {
+    font-size: 30px;
+}
+
+p {
+  font-size:30px;
+  padding: 100px 50px 50px 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
